@@ -1,3 +1,4 @@
+import "./App.css";
 
 //components
 import Breadcrumb from "./components/Breadcrumb";

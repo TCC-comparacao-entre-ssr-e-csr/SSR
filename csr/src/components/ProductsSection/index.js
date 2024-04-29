@@ -8,10 +8,6 @@ const ProductsSection = () => {
     "https://fakestoreapi.com/products"
   );
 
-  useEffect(() => {
-    console.log(products);
-  }, [products]);
-
   return (
     <div className="container mb-5">
       {!isLoading ? (

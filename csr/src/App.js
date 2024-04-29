@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Breadcrumb />
-      <TitleCategory category="Test" />
+      <TitleCategory category="PROMOTION - 40% OFF" />
       <FilterNavbar />
       <ProductsSection />
       <Footer />

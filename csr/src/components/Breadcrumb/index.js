@@ -11,15 +11,7 @@ const Breadcrumb = () => {
             </li>
             <li>
               <img src="/images/breadcrumb.svg" alt="" />
-              <h4>Mobile Phone</h4>
-            </li>
-            <li>
-              <img src="/images/breadcrumb.svg" alt="" />
-              <h4>Apple</h4>
-            </li>
-            <li>
-              <img src="/images/breadcrumb.svg" alt="" />
-              <h4 className="active">Apple Iphone 7, 128 GB</h4>
+              <h4 className="active">PROMOTION - 40% OFF</h4>
             </li>
           </ul>
         </div>

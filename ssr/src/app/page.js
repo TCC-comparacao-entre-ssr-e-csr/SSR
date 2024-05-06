@@ -1,3 +1,5 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import Breadcrumb from "@/components/Breadcrumb";
 import FilterNavbar from "@/components/FilterNavbar";
 import Footer from "@/components/Footer";

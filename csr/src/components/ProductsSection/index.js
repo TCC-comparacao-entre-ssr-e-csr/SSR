@@ -1,5 +1,4 @@
 import ProductCard from "../ProductCard";
-import { useEffect } from "react";
 import { useFetch } from "../../hooks/useFetch";
 import Loader from "../Loader";
 

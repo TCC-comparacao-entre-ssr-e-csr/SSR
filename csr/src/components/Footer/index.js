@@ -45,13 +45,13 @@ const Footer = () => {
             </div>
             <div className="col-4">
               <div className="icon__footer">
-                <img src="/images/twiiter footer.svg" alt="" />
+                <img src="/images/e-commerce/twiiter footer.svg" alt="" />
               </div>
               <div className="icon__footer">
-                <img src="/images/instagram icon.svg" alt="" />
+                <img src="/images/e-commerce/instagram icon.svg" alt="" />
               </div>
               <div className="icon__footer">
-                <img src="/images/facebook footer.svg" alt="" />
+                <img src="/images/e-commerce/facebook footer.svg" alt="" />
               </div>
             </div>
             <div className="col-4">

@@ -9,10 +9,10 @@ const ProductCard = ({productData}) => {
             <h5 className="stats__products text-center">New</h5>
           </div>
           <div className="col-2">
-            <img src="/images/list icon.svg" alt="" />
+            <img src="/images/e-commercelist icon.svg" alt="" />
           </div>
           <div className="col-2">
-            <img src="/images/wishlist icon.svg" alt="" />
+            <img src="/images/e-commercewishlist icon.svg" alt="" />
           </div>
         </div>
         <div className="row">
@@ -41,7 +41,7 @@ const ProductCard = ({productData}) => {
                 <h4>R$ {productData.price}</h4>
               </div>
               <div className="col-3 area__price__product">
-                <img src="/images/cart icon product.svg" alt="" />
+                <img src="/images/e-commercecart icon product.svg" alt="" />
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ const Breadcrumb = () => {
               <h4>Main</h4>
             </li>
             <li>
-              <img src="/images/breadcrumb.svg" alt="" />
+              <img src="/images/e-commerce/breadcrumb.svg" alt="" />
               <h4 className="active">PROMOTION - 40% OFF</h4>
             </li>
           </ul>
@@ -19,11 +19,11 @@ const Breadcrumb = () => {
           <ul className="breadcrumb__social__media">
             <li>Share: </li>
             <li>
-              <img src="/images/facebook icon.svg" alt="" />
+              <img src="/images/e-commerce/facebook icon.svg" alt="" />
             </li>
             <li className="count__breadcrumb__social">45</li>
             <li>
-              <img src="/images/twitter icon.svg" alt="" />
+              <img src="/images/e-commerce/twitter icon.svg" alt="" />
             </li>
             <li className="count__breadcrumb__social">12</li>
           </ul>

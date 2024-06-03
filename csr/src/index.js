@@ -10,11 +10,16 @@ import { createBrowserRouter } from "react-router-dom";
 
 //pages
 import EcommercePage from "./pages/E-commerce";
+import TesteDePerformanceESEO from "./pages/TesteDePerformanceESEO"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <EcommercePage />,
+  },
+  {
+    path: "/teste",
+    element: <TesteDePerformanceESEO/>
   },
 ]);
 

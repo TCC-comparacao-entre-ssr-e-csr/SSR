@@ -9,15 +9,15 @@ const ProductCard = ({productData}) => {
             <h5 className="stats__products text-center">New</h5>
           </div>
           <div className="col-2">
-            <Image src="/static/images/e-commercelist icon.svg" alt="" />
+            <img src="/static/images/e-commercelist icon.svg" alt="" />
           </div>
           <div className="col-2">
-            <Image src="/static/images/e-commercewishlist icon.svg" alt="" />
+            <img src="/static/images/e-commercewishlist icon.svg" alt="" />
           </div>
         </div>
         <div className="row">
           <div className="col-12">
-            <Image src={productData.image} alt="" />
+            <img src={productData.image} alt="" />
           </div>
         </div>
         <div className="row mt-3">
@@ -41,7 +41,7 @@ const ProductCard = ({productData}) => {
                 <h4>R$ {productData.price}</h4>
               </div>
               <div className="col-3 area__price__product">
-                <Image src="/static/images/e-commercecart icon product.svg" alt="" />
+                <img src="/static/images/e-commercecart icon product.svg" alt="" />
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ const FilterNavbar = () => {
         <div className="row">
           <div className="col-3 d-flex align-items-center justify-content-start">
             <h4>All Types</h4>
-            <img src="/static/images/e-commercearrow icon.svg" alt="arrow" />
+            <img src="/static/images/arrow icon.svg" alt="arrow" />
           </div>
           <div className="col-6 d-flex justify-content-center">
             <h5 className="active">Popular Products</h5>
@@ -16,7 +16,7 @@ const FilterNavbar = () => {
           </div>
           <div className="col-3 d-flex justify-content-end align-items-center">
             <h4>Price</h4>
-            <img src="/static/images/e-commercearrow icon.svg" alt="arrow" />
+            <img src="/static/images/arrow icon.svg" alt="arrow" />
           </div>
         </div>
       </div>

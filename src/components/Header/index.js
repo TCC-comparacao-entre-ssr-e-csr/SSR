@@ -20,13 +20,13 @@ const Header = () => {
           </div>
           <div className="col-3">
             <div className="icon__navbar__menu">
-              <img src="/static/images/e-commercesearch icon.svg" alt="" />
+              <img src="/static/images/search icon.svg" alt="" />
             </div>
             <div className="icon__navbar__menu">
-              <img src="/static/images/e-commerceuser icon.svg" alt="" />
+              <img src="/static/images/user icon.svg" alt="" />
             </div>
             <div className="icon__navbar__menu">
-              <img src="/static/images/e-commercecart icon.svg" alt="" />
+              <img src="/static/images/cart icon.svg" alt="" />
             </div>
           </div>
         </div>

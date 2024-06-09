@@ -1,6 +1,6 @@
 import "./index.css";
 
-const ProductCard = ({productData}) => {
+const ProductCard = ({ productData }) => {
   return (
     <div className="col-lg-4 mt-4">
       <div className="area__products">
@@ -9,10 +9,10 @@ const ProductCard = ({productData}) => {
             <h5 className="stats__products text-center">New</h5>
           </div>
           <div className="col-2">
-            <img src="/static/images/e-commercelist icon.svg" alt="" />
+            <img src="/static/images/list icon.svg" alt="" />
           </div>
           <div className="col-2">
-            <img src="/static/images/e-commercewishlist icon.svg" alt="" />
+            <img src="/static/images/wishlist icon.svg" alt="" />
           </div>
         </div>
         <div className="row">
@@ -41,7 +41,10 @@ const ProductCard = ({productData}) => {
                 <h4>R$ {productData.price}</h4>
               </div>
               <div className="col-3 area__price__product">
-                <img src="/static/images/e-commercecart icon product.svg" alt="" />
+                <img
+                  src="/static/images/cart icon product.svg"
+                  alt=""
+                />
               </div>
             </div>
           </div>

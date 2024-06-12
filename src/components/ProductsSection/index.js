@@ -1,37 +1,12 @@
 import ProductCard from "../ProductCard";
 
 import Loader from "../Loader";
-
-async function getData() {
-  let data = {};
-  let isLoading = true;
-  let error;
-
-  const res = await fetch("https://fakestoreapi.com/products")
-    .then((res) => res.json())
-    .then((json) => {
-      data = json;
-    })
-    .finally(() => {
-      isLoading = false;
-    })
-    .catch((err) => {
-      error = err;
-    });
-
-  // if (!res) {
-  //   throw new Error("Failed to fetch data");
-  // }
-
-  return {
-    data: data,
-    isLoading: isLoading,
-    error: error,
-  };
-}
+import { getData } from "@/functions/getData";
 
 const ProductsSection = async () => {
-  const { data: products, isLoading } = await getData();
+  const { data: products, isLoading } = await getData(
+    "https://fakestoreapi.com/products"
+  );
   return (
     <div className="container mb-5">
       {!isLoading ? (
